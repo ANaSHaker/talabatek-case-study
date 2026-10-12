@@ -1,0 +1,106 @@
+{
+  "outDir": "..",
+  "brand": {
+    "name": "Talabatek",
+    "tagline": "Food & grocery delivery: customer, driver and restaurant apps plus a Flutter web app.",
+    "accent": "#E65100",
+    "accent2": "#FF9A3C",
+    "logo": "D:/shaker-github/_store/com.talabatek.app/icon.png",
+    "dark": true
+  },
+  "images": [
+    {
+      "type": "banner",
+      "file": "banner.png",
+      "kicker": "Case Study · Delivery platform",
+      "subtitle": "Customer, driver and restaurant apps + Flutter web. Arabic-first, live in Palestine.",
+      "screens": [
+        "D:/shaker-github/_work/talabatek-raw/driver_home_dark.jpg",
+        "D:/shaker-github/_work/talabatek-raw/user_home_light.jpg",
+        "D:/shaker-github/_work/talabatek-raw/rest_board_dark.jpg"
+      ],
+      "devices": ["android", "iphone", "android"],
+      "chips": ["Flutter", "Bloc / Cubit", "Thermal printing", "FCM", "Shorebird"]
+    },
+    {
+      "type": "devices",
+      "file": "screens-customer.png",
+      "title": "Customer app — light & dark",
+      "screens": [
+        "D:/shaker-github/_work/talabatek-raw/user_home_light.jpg",
+        "D:/shaker-github/_work/talabatek-raw/user_cart_light.jpg",
+        "D:/shaker-github/_work/talabatek-raw/user_orders_dark.jpg",
+        "D:/shaker-github/_work/talabatek-raw/user_home_dark.jpg"
+      ],
+      "devices": ["iphone", "android", "iphone", "android"],
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "type": "devices",
+      "file": "screens-driver.png",
+      "title": "Driver app — orders radar, shifts, reviews",
+      "screens": [
+        "D:/shaker-github/_work/talabatek-raw/driver_home_light.jpg",
+        "D:/shaker-github/_work/talabatek-raw/driver_shifts_light.jpg",
+        "D:/shaker-github/_work/talabatek-raw/driver_reviews_dark.jpg",
+        "D:/shaker-github/_work/talabatek-raw/driver_home_dark.jpg"
+      ],
+      "device": "android",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "type": "devices",
+      "file": "screens-restaurant.png",
+      "title": "Restaurant app — order board, menu, quick dispatch",
+      "screens": [
+        "D:/shaker-github/_work/talabatek-raw/rest_board_light.jpg",
+        "D:/shaker-github/_work/talabatek-raw/rest_products.jpg",
+        "D:/shaker-github/_work/talabatek-raw/rest_quick_order.jpg",
+        "D:/shaker-github/_work/talabatek-raw/rest_notifications.jpg"
+      ],
+      "device": "android",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "type": "feature",
+      "file": "feature-printing.png",
+      "kicker": "Signature feature",
+      "title": "Orders print themselves",
+      "points": [
+        "Sunmi → built-in POS (LocalSocket) → Bluetooth fallback",
+        "Arabic receipts on 80 mm ESC/POS paper",
+        "Auto-print new orders, never the same order twice",
+        "Survives restarts; skips stale orders; retries up to 3×"
+      ],
+      "screens": [
+        "D:/shaker-github/_work/talabatek-raw/rest_board_dark.jpg"
+      ],
+      "device": "android"
+    },
+    {
+      "type": "web",
+      "file": "web.png",
+      "title": "Flutter web app — city-based coverage picker",
+      "screens": ["D:/shaker-github/_work/talabatek-shots/tw_desktop.png"],
+      "height": 960
+    },
+    {
+      "type": "gallery",
+      "file": "store-listing.png",
+      "title": "Store listing (Google Play)",
+      "device": "card",
+      "cardRatio": 1.8,
+      "cols": 5,
+      "screens": [
+        "D:/shaker-github/_store/com.talabatek.app/shot_01.png",
+        "D:/shaker-github/_store/com.talabatek.app/shot_02.png",
+        "D:/shaker-github/_store/com.talabatek.app/shot_03.png",
+        "D:/shaker-github/_store/com.talabatek.app/shot_04.png",
+        "D:/shaker-github/_store/com.talabatek.app/shot_05.png"
+      ]
+    }
+  ]
+}

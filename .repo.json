@@ -1,0 +1,6 @@
+{
+  "name": "talabatek-case-study",
+  "description": "Case study: Talabatek (طلباتك), a food and grocery delivery platform with four Flutter clients (customer, driver, restaurant with auto thermal printing, and web). 10K+ installs on Google Play. Arabic-first delivery, built for real POS hardware",
+  "topics": ["flutter", "case-study", "food-delivery", "bloc", "thermal-printing", "sunmi", "flutter-web", "arabic", "rtl", "firebase"],
+  "homepage": "https://play.google.com/store/apps/details?id=com.talabatek.app"
+}
